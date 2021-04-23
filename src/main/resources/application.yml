@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      auto-commit-interval: 50
+      enable-auto-commit: true
+      auto-offset-reset: earliest
+    producer:
+      batch-size: 1
+      bootstrap-servers: localhost:9092
